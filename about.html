@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div id="loading-spinner" class="loading-spinner"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Elevens Touch</title>
+    <link rel="stylesheet" href="css/Elevenstouch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- Header Section -->
+<header class="navbar">
+    <!-- Logo and Branding -->
+    <div class="logo-brand">
+        <img src="https://i.postimg.cc/Vk47gKnj/ET.png" alt="Logo" class="logo-image">
+        <div class="brand-text">
+            <h1>ELEVENS TOUCH</h1>
+            <p class="motto">Styling you to a Ten and more...</p>
+        </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search for products...">
+            <button class="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="theme-toggle-icon" id="theme-toggle">
+        <i class="fas fa-moon"></i>  
+    </div>
+
+    <!-- Icons -->
+    <div class="nav-icons">
+        <a href="#account" class="nav-icon" id="auth-link"><i class="fa-regular fa-user"></i></a>
+        <a href="#wishlist" class="nav-icon wishlist-icon" onclick="showWishlist()"><i class="fa-regular fa-heart"></i><span class="wishlist-count">0</span></a>
+        <a href="#cart" class="nav-icon cart-icon"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count">0</span></a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <div class="menu-icon" id="menu-icon">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation Links -->
+    <nav class="nav-container" id="nav-container">
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li class="mobile-auth"><a href="#signin">SIGN IN / SIGN UP</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <!-- About Main Content -->
+    <main class="about-main">
+        <section class="about-hero">
+            <h1>Our Story</h1>
+            <p>Elevating fashion since 2020</p>
+        </section>
+
+        <section class="about-story">
+            <div class="story-content">
+                <h2>The Elevens Touch Journey</h2>
+                <p>Founded in 2020 by fashion visionary Blossom Amarachi Samuel, Elevens Touch began as a small boutique with a big dream: to make available clothings that makes every man and woman feel like the best version of theirselves.</p>
+                <p>What started as a passion project quickly grew into a beloved brand known for its impeccable craftsmanship, attention to detail, and commitment to sustainable luxury.</p>
+                <p>Today, we continue to honor our founder's vision while innovating for the modern woman who values both style and substance.</p>
+            </div>
+            <div class="story-image">
+                <img src="https://i.postimg.cc/YCQZmFW0/founder.jpg" alt="Our founder">
+            </div>
+        </section>
+
+        <section class="mission-values">
+            <h2>Our Mission & Values</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Quality Craftsmanship</h3>
+                    <p>Every piece is meticulously crafted with premium materials to ensure longevity and comfort.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Sustainable Practices</h3>
+                    <p>We're committed to ethical sourcing and reducing our environmental footprint.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Inclusive Beauty</h3>
+                    <p>We celebrate all women and design for diverse body types and personal styles.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Extraordinary Service</h3>
+                    <p>Your satisfaction is our priority, from first click to final fitting.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <h2>Meet The Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="" alt="Flourish Samuel">
+                    <h3>Flourish Samuel</h3>
+                    <p>Creative Director</p>
+                </div>
+                <div class="team-member">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p>Head of Design</p>
+                </div>
+                <div class="team-member">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p>Customer Experience</p>
+                </div>
+                <div class="team-member">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p>Operations Manager</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+     <!-- Footer -->
+                    <footer>
+                        <div class="footer-content">
+                            <div class="footer-section">
+                                <h3>Shop</h3>
+                                <ul>
+                                    <li><a href="shop.html#new">New Arrivals</a></li>
+                                    <li><a href="shop.html#bestsellers">Bestsellers</a></li>
+                                    <li><a href="shop.html#sale">Sale</a></li>
+                                    <li><a href="shop.html">All Collections</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-section">
+                                <h3>Help</h3>
+                                <ul>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="shipping.html">Shipping & Returns</a></li>
+                                    <li><a href="sizing.html">Size Guide</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-section">
+                                <h3>About</h3>
+                                <ul>
+                                    <li><a href="about.html">Our Story</a></li>
+                                    <li><a href="sustainability.html">Sustainability</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="careers.html">Careers</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-section">
+                                <h3>Connect</h3>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </div>
+                                <div class="payment-methods">
+                                    <i class="fab fa-cc-visa"></i>
+                                    <i class="fab fa-cc-mastercard"></i>
+                                    <i class="fab fa-cc-amex"></i>
+                                    <i class="fab fa-cc-paypal"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bar">
+                            <p>© 2025 Elevens Touch. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+                        </div>
+                        <button id="scroll-to-top"><i class="fas fa-arrow-up"></i></button>
+                    </footer>
+                
+                    <!-- Shopping Cart Sidebar -->
+                    <div class="cart-sidebar" id="cart-sidebar">
+                        <div class="cart-header">
+                            <h3>Your Cart</h3>
+                            <button class="close-cart" id="close-cart">&times;</button>
+                        </div>
+                        <div class="cart-items" id="cart-items">
+                            <!-- Cart items will be loaded here -->
+                        </div>
+                        <div class="cart-total">
+                            <p>Total: <span id="cart-total">$0.00</span></p>
+                            <a href="checkout.html" class="cta-button">Checkout</a>
+                        </div>
+                    </div>
+                    <div class="cart-overlay" id="cart-overlay"></div>
+                
+                   <!-- Wishlist Sidebar -->
+                <div class="wishlist-sidebar" id="wishlist-sidebar">
+                    <div class="wishlist-header">
+                        <h3>Your Wishlist</h3>
+                        <button class="close-wishlist" id="close-wishlist">&times;</button>
+                    </div>
+                    <div class="wishlist-items" id="wishlist-items">
+                        <!-- Wishlist items will be loaded here -->
+                    </div>
+                </div>
+                <div class="wishlist-overlay" id="wishlist-overlay"></div>
+                
+                    <!-- Auth Modal -->
+                <div class="auth-modal" id="auth-modal">
+                    <div class="auth-content">
+                        <span class="close-auth">&times;</span>
+                        <div class="auth-header">
+                            <h2>Welcome to Elevens Touch</h2>
+                            <p>Sign in to access your account or create a new one to join our community.</p>
+                        </div>
+                        <div class="auth-tabs">
+                            <button class="tab-btn active" data-tab="login">Sign In</button>
+                            <button class="tab-btn" data-tab="register">Sign Up</button>
+                        </div>
+                        <div class="tab-content active" id="login">
+                            <form id="login-form">
+                                <div class="input-group">
+                                    <label for="login-email">Email</label>
+                                    <input type="email" id="login-email" placeholder="Enter your email" required>
+                                </div>
+                                <div class="input-group">
+                                    <label for="login-password">Password</label>
+                                    <input type="password" id="login-password" placeholder="Enter your password" required>
+                                </div>
+                                <button type="submit" class="cta-button">Sign In</button>
+                                <a href="#forgot" class="auth-link">Forgot password?</a>
+                            </form>
+                        </div>
+                        <div class="tab-content" id="register">
+                            <form id="register-form">
+                                <div class="input-group">
+                                    <label for="register-name">Full Name</label>
+                                    <input type="text" id="register-name" placeholder="Enter your full name" required>
+                                </div>
+                                <div class="input-group">
+                                    <label for="register-email">Email</label>
+                                    <input type="email" id="register-email" placeholder="Enter your email" required>
+                                </div>
+                                <div class="input-group">
+                                    <label for="register-password">Password</label>
+                                    <input type="password" id="register-password" placeholder="Create a password" required>
+                                </div>
+                                <button type="submit" class="auth-cta-button">Create Account</button>
+                            </form>
+                        </div>
+                        <div class="auth-footer">
+                            <p>By signing up, you agree to our <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                
+    <script src="js/Elevenstouch.js"></script>
+</body>
+</html>
